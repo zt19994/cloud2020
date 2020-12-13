@@ -49,3 +49,9 @@ RestTemplate提供了多种便捷访问远程Http服务的方法，是一种简�
 1. clean
 2. install
 
+# 三、Eureka服务治理
+## 3.1 Eureka两个组件：Eureka Server 和 Eureka Client
+1. Eureka Server 提供服务注册服务
+2. Eureka Client通过注册中心进行访问
+
+
