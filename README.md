@@ -20,4 +20,10 @@ spring cloud 学习
 2. 改POM
 3. 写YML
 4. 主启动
-5. 业务类
+5. 业务类 
+    1. 建表SQL
+    2. entities
+    3. dao
+    4. service
+    5. controller
+6. 测试
