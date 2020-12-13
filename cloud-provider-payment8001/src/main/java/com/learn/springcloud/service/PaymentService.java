@@ -1,4 +1,4 @@
-package com.learn.springcloud.Service;
+package com.learn.springcloud.service;
 
 import com.learn.springcloud.entities.Payment;
 

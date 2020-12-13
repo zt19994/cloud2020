@@ -1,6 +1,6 @@
-package com.learn.springcloud.Service.impl;
+package com.learn.springcloud.service.impl;
 
-import com.learn.springcloud.Service.PaymentService;
+import com.learn.springcloud.service.PaymentService;
 import com.learn.springcloud.dao.PaymentDao;
 import com.learn.springcloud.entities.Payment;
 import org.springframework.stereotype.Service;
