@@ -27,3 +27,11 @@ spring cloud 学习
     4. service
     5. controller
 6. 测试
+
+## 2.2 热部署
+1. Adding devtools to your project
+2. Adding plugin to your pom.xml
+3. Enabling automatic build
+4. Update the value of
+5. 重启Idea
+
