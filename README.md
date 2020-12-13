@@ -41,3 +41,11 @@ RestTemplate提供了多种便捷访问远程Http服务的方法，是一种简�
 1. 官网地址：https://docs.spring.io/spring-framework/docs/5.2.2.RELEASE/javadoc-api/org/springframework/web/client/RestTemplate.html
 2. 使用：使用restTemplate访问restful接口非常的简单粗暴，（url、requestMap、ResponseBean.class）这三个参数分别代表REST请求地址、请求参数、HTTP响应转换被转换成的对象类型。
 
+## 2.4 工程重构
+项目中存在相同的代码（entities包下的Payment.class和CommonResult.class）,造成代码冗余，可以进行重构。
+通过Maven聚合父工程，把相同重复的代码移到公开公用的工程里面，还可以放第三方接口、工具类，统一调配使用。
+
+执行maven命令
+1. clean
+2. install
+
